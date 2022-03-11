@@ -3,9 +3,6 @@ USER root
 ARG PYTHON_VERSION=3.9
 ARG DEBIAN_FRONTEND=noninteractive
 
-
-
-
 RUN apt-get update && apt-get install -y --no-install-recommends --no-install-suggests \
           python${PYTHON_VERSION} \
           python3-pip \
