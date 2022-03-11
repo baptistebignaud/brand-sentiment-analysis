@@ -1,2 +1,3 @@
 # Personnal information connection
 .env
+/utile/__pycache__
