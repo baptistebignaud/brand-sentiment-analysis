@@ -1,0 +1,15 @@
+### Framework
+    jupyterlab == 3.2.4
+### Data vizualisation and plot
+    matplotlib == 3.5.0
+    seaborn == 0.11.2
+### Data analysis 
+    pandas == 1.3.4
+### ML Librairies
+    sklearn 
+###Plot and display training models
+    pydot == 1.4.2
+    tqdm == 4.62.1
+
+
+    
