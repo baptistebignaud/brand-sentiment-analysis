@@ -11,3 +11,21 @@ Endpoints twitter API: https://developer.twitter.com/en/docs/twitter-api/migrate
 Filtering twitter API: https://developer.twitter.com/en/docs/twitter-api/premium/rules-and-filtering/premium-operators
 
 Could be better to use country_profile but needs to have a paid premium account: https://developer.twitter.com/en/docs/tutorials/advanced-filtering-for-geo-data
+
+# Usefull commands
+
+## Build the container
+
+`docker-compose build`
+
+Up containers
+`docker-compose up -d`
+
+Stop containers
+docker-compose stop
+
+Open a shell inside the main container
+docker-compose exec scor_challenge sh
+
+Run jupyter lab from the container
+jupyter lab --ip 0.0.0.0 --allow-root

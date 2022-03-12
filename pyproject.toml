@@ -1,0 +1,8 @@
+[tool.black]
+line-length = 88
+jupyter = 1 
+
+# We use preview style for formatting Black itself. If you
+# want stable formatting across releases, you should keep
+# this off.
+preview = true

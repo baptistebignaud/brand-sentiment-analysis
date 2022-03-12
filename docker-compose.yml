@@ -1,27 +1,27 @@
-version: "3.9"
+version: '3.9'
 services:
-  main_container:
-    tty: true
+   main_container:
+      tty: true
 
-    build: .
-    ports:
-      - "4000:4000"
-      - "8888:8888" #Notebook port
-      - "6006:6006" # Tensorboard
+      build: .
+      ports:
+         - '4000:4000'
+         - '8888:8888' #Notebook port
+         - '6006:6006' # Tensorboard
 
-    container_name: "main_container"
-    environment:
-      consumer_key: ${TWITTER_CONSUMER_KEY}
-      consumer_secret: ${TWITTER_CONSUMER_SECRET}
-      access_token_key: ${TWITTER_ACCESS_TOKEN_KEY}
-      access_token_secret: ${TWITTER_ACCESS_TOKEN_SECRET}
-      twitter_bearer_token: ${TWITTER_BEARER_TOKEN}
-    volumes:
-      - ./:/appli
+      container_name: 'main_container'
+      environment:
+         consumer_key: ${TWITTER_CONSUMER_KEY}
+         consumer_secret: ${TWITTER_CONSUMER_SECRET}
+         access_token_key: ${TWITTER_ACCESS_TOKEN_KEY}
+         access_token_secret: ${TWITTER_ACCESS_TOKEN_SECRET}
+         twitter_bearer_token: ${TWITTER_BEARER_TOKEN}
+      volumes:
+         - ./:/appli
 
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - capabilities: [gpu]
-              driver: nvidia
+      deploy:
+         resources:
+            reservations:
+               devices:
+                  - capabilities: [gpu]
+                    driver: nvidia
