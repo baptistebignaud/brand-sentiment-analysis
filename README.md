@@ -18,14 +18,18 @@ Could be better to use country_profile but needs to have a paid premium account:
 
 `docker-compose build`
 
-Up containers
+## Up containers
+
 `docker-compose up -d`
 
-Stop containers
-docker-compose stop
+## Stop containers
 
-Open a shell inside the main container
-docker-compose exec scor_challenge sh
+`docker-compose stop`
 
-Run jupyter lab from the container
-jupyter lab --ip 0.0.0.0 --allow-root
+## Open a shell inside the main container
+
+`docker-compose exec main_container sh`
+
+## Run jupyter lab from the container
+
+`jupyter lab --ip 0.0.0.0 --allow-root`
