@@ -1,3 +1,4 @@
 # Personnal information connection
 .env
 /utile/__pycache__
+/notebooks/.ipynb_checkpoints
