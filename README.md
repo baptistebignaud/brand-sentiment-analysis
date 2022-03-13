@@ -14,6 +14,8 @@ Could be better to use country_profile but needs to have a paid premium account:
 
 Handle emojis
 
+BERT finetuning: https://skimai.com/fine-tuning-bert-for-sentiment-analysis/
+
 # Usefull commands
 
 ## Build the container
