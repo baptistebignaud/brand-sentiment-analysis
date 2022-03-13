@@ -12,6 +12,8 @@ Filtering twitter API: https://developer.twitter.com/en/docs/twitter-api/premium
 
 Could be better to use country_profile but needs to have a paid premium account: https://developer.twitter.com/en/docs/tutorials/advanced-filtering-for-geo-data
 
+Handle emojis
+
 # Usefull commands
 
 ## Build the container
