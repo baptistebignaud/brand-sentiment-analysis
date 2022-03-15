@@ -16,6 +16,8 @@ Handle emojis
 
 BERT finetuning: https://skimai.com/fine-tuning-bert-for-sentiment-analysis/
 
+Profile users analysis: https://arxiv.org/pdf/1905.05961.pdf
+
 # Usefull commands
 
 ## Build the container
