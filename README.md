@@ -18,6 +18,15 @@ BERT finetuning: https://skimai.com/fine-tuning-bert-for-sentiment-analysis/
 
 Profile users analysis: https://arxiv.org/pdf/1905.05961.pdf
 
+Five big traits : https://github.com/jkwieser/personality-detection-text
+
+For facebook big5 traits: https://github.com/jcl132/personality-prediction-from-text
+
+Text based personality prediction from multiple social media data sources using pre-trained language model and model averaging:
+https://journalofbigdata.springeropen.com/articles/10.1186/s40537-021-00459-1#availability-of-data-and-materials
+
+Prediction of age and gender: https://github.com/euagendas/m3inference
+
 # Usefull commands
 
 ## Build the container
