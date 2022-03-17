@@ -18,3 +18,5 @@
     ipywidgets
     geopy
     fuzzymatcher
+    emot
+    snscrape
