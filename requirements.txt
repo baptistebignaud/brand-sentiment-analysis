@@ -16,3 +16,5 @@
     tweepy
 ### Jupyter depedencies    
     ipywidgets
+    geopy
+    fuzzymatcher
